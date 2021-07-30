@@ -15,6 +15,7 @@
     <color name="equalButton">#FF0000</color>
     <color name="numberActionButton">#000000</color>
     <color name="numberActionButton2">#373737</color>
+<!--    colors for night mode theme-->
     <color name="actionButton_dark">#5677FC</color>
     <color name="equalButton_dark">#3F51B5</color>
     <color name="numberActionButton_dark">#5677FC</color>
