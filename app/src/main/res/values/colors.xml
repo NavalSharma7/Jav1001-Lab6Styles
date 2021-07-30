@@ -8,11 +8,15 @@
     <color name="primaryColor">#FF000000</color>
     <color name="black">#FF000000</color>
     <color name="colorPrimary">#000000</color>
-    <color name = "white">#ffffff</color>
+    <color name="white">#ffffff</color>
     <color name="colorPrimaryDark">#cccccc</color>
     <color name="colorAccent">#FF4081</color>
-    <color name = "actionButton">#808080</color>
-    <color name = "equalButton">#FF0000</color>
+    <color name="actionButton">#808080</color>
+    <color name="equalButton">#FF0000</color>
     <color name="numberActionButton">#000000</color>
-    <color name = "numberActionButton2">#373737</color>
+    <color name="numberActionButton2">#373737</color>
+    <color name="actionButton_dark">#5677FC</color>
+    <color name="equalButton_dark">#3F51B5</color>
+    <color name="numberActionButton_dark">#5677FC</color>
+    <color name="numberActionButton2_dark">#03A9F4</color>
 </resources>

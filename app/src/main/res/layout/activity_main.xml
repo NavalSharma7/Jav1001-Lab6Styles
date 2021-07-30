@@ -12,7 +12,7 @@
         android:id="@+id/result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Resul here" />
+        android:hint="Result here" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,27 +22,31 @@
         <Button
             style="@style/ActionButtonStyle"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="CE" />
 
         <Button
             style="@style/ActionButtonStyle"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="C" />
 
         <Button
             style="@style/ActionButtonStyle"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="DEL" />
         <Button
             android:layout_width="0dp"
+
             style="@style/NumberActionButton2"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="*" />
     </LinearLayout>
@@ -56,26 +60,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="7" />
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="8" />
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="9" />
         <Button
             android:layout_width="0dp"
             style="@style/NumberActionButton2"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
+
             android:text="/" />
         </LinearLayout>
 
@@ -83,26 +88,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="4" />
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="5" />
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="6" />
             <Button
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/NumberActionButton2"
+
                 android:text="*" />
         </LinearLayout>
 
@@ -110,26 +116,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="1" />
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="2" />
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="3" />
             <Button
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/NumberActionButton2"
+
                 android:text="-" />
         </LinearLayout>
 
@@ -137,28 +144,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="0" />
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="." />
             <Button
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/EqualButtonStyle"
                 android:text="=" />
             <Button
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/NumberActionButton2"
-
                 android:text="+" />
         </LinearLayout>
     </LinearLayout>
